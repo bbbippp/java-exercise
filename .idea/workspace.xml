@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb24d979-3bce-4b7c-86e1-54306031a038" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodingExerciseIntEqualityPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingExercisePlayingCat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodingExerciseIntEqualityPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="-193">
+              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodingExercisePlayingCat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -132,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/CodingExerciseAreaCalculator.java" />
         <option value="$PROJECT_DIR$/src/CodingExerciseMinutesToYearsDaysCalculator.java" />
         <option value="$PROJECT_DIR$/src/CodingExerciseIntEqualityPrinter.java" />
+        <option value="$PROJECT_DIR$/src/CodingExercisePlayingCat.java" />
       </list>
     </option>
   </component>
@@ -170,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548058803145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548059676720" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -185,16 +195,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingExerciseIntEqualityPrinter">
+  <component name="RunManager" selected="Application.CodingExercisePlayingCat">
     <configuration name="CodingExerciseAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingExerciseAreaCalculator" />
-      <module name="Java Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodingExerciseDecimalComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingExerciseDecimalComparator" />
       <module name="Java Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,6 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CodingExercisePlayingCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingExercisePlayingCat" />
+      <module name="Java Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecondsAndMinuteChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondsAndMinuteChallenge" />
       <module name="Java Project" />
@@ -222,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodingExerciseDecimalComparator" />
       <item itemvalue="Application.SecondsAndMinuteChallenge" />
       <item itemvalue="Application.CodingExerciseAreaCalculator" />
       <item itemvalue="Application.CodingExerciseMinutesToYearsDaysCalculator" />
       <item itemvalue="Application.CodingExerciseIntEqualityPrinter" />
+      <item itemvalue="Application.CodingExercisePlayingCat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodingExercisePlayingCat" />
         <item itemvalue="Application.CodingExerciseIntEqualityPrinter" />
         <item itemvalue="Application.CodingExerciseMinutesToYearsDaysCalculator" />
         <item itemvalue="Application.CodingExerciseAreaCalculator" />
         <item itemvalue="Application.SecondsAndMinuteChallenge" />
-        <item itemvalue="Application.CodingExerciseDecimalComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -287,12 +297,12 @@
       <workItem from="1546398137243" duration="903000" />
       <workItem from="1546830284463" duration="531000" />
       <workItem from="1546917987163" duration="583000" />
-      <workItem from="1547981540600" duration="5215000" />
+      <workItem from="1547981540600" duration="6096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67570000" />
+    <option name="totallyTimeSpent" value="68451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1397" y="31" width="1280" height="733" extended-state="0" />
@@ -572,8 +582,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingExerciseIntEqualityPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="-193">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingExercisePlayingCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
