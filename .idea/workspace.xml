@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb24d979-3bce-4b7c-86e1-54306031a038" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodingExerciseNumberInWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingExerciseNumberOfDaysInMonth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondsAndMinuteChallenge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodingExerciseAreaCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodingExerciseNumberInWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="5">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodingExerciseNumberOfDaysInMonth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/LectureSwitch.java" />
         <option value="$PROJECT_DIR$/src/CodingExerciseDayOfTheWeek.java" />
         <option value="$PROJECT_DIR$/src/CodingExerciseNumberInWord.java" />
+        <option value="$PROJECT_DIR$/src/CodingExerciseNumberOfDaysInMonth.java" />
       </list>
     </option>
   </component>
@@ -192,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548142119290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548150943859" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -207,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingExerciseDayOfTheWeek">
+  <component name="RunManager" selected="Application.CodingExerciseNumberOfDaysInMonth">
     <configuration name="CodingExerciseDayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingExerciseDayOfTheWeek" />
       <module name="Java Project" />
@@ -222,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodingExerciseMinutesToYearsDaysCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingExerciseMinutesToYearsDaysCalculator" />
+    <configuration name="CodingExerciseNumberOfDaysInMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingExerciseNumberOfDaysInMonth" />
       <module name="Java Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,19 +245,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodingExerciseMinutesToYearsDaysCalculator" />
       <item itemvalue="Application.CodingExerciseIntEqualityPrinter" />
       <item itemvalue="Application.CodingExercisePlayingCat" />
       <item itemvalue="Application.LectureSwitch" />
       <item itemvalue="Application.CodingExerciseDayOfTheWeek" />
+      <item itemvalue="Application.CodingExerciseNumberOfDaysInMonth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodingExerciseNumberOfDaysInMonth" />
         <item itemvalue="Application.CodingExerciseDayOfTheWeek" />
         <item itemvalue="Application.LectureSwitch" />
         <item itemvalue="Application.CodingExercisePlayingCat" />
         <item itemvalue="Application.CodingExerciseIntEqualityPrinter" />
-        <item itemvalue="Application.CodingExerciseMinutesToYearsDaysCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -309,18 +310,18 @@
       <workItem from="1546398137243" duration="903000" />
       <workItem from="1546830284463" duration="531000" />
       <workItem from="1546917987163" duration="583000" />
-      <workItem from="1547981540600" duration="9504000" />
+      <workItem from="1547981540600" duration="12256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71859000" />
+    <option name="totallyTimeSpent" value="74611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1397" y="31" width="1280" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,14 +330,14 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.407767" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.407767" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39805827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32524273" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32524273" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32362458" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -386,6 +387,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingExerciseNumberOfDaysInMonth.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UserTestData.java">
@@ -622,8 +635,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingExerciseNumberInWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="5">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingExerciseNumberOfDaysInMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
