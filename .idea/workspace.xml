@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb24d979-3bce-4b7c-86e1-54306031a038" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LectureSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingExerciseDayOfTheWeek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LectureOverloading.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SecondsAndMinuteChallenge.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LectureSwitch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodingExerciseDayOfTheWeek.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/CodingExerciseIntEqualityPrinter.java" />
         <option value="$PROJECT_DIR$/src/CodingExercisePlayingCat.java" />
         <option value="$PROJECT_DIR$/src/LectureSwitch.java" />
+        <option value="$PROJECT_DIR$/src/CodingExerciseDayOfTheWeek.java" />
       </list>
     </option>
   </component>
@@ -190,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548140265562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548141716491" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -205,9 +206,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LectureSwitch">
-    <configuration name="CodingExerciseAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingExerciseAreaCalculator" />
+  <component name="RunManager" selected="Application.CodingExerciseDayOfTheWeek">
+    <configuration name="CodingExerciseDayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingExerciseDayOfTheWeek" />
       <module name="Java Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,19 +243,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodingExerciseAreaCalculator" />
       <item itemvalue="Application.CodingExerciseMinutesToYearsDaysCalculator" />
       <item itemvalue="Application.CodingExerciseIntEqualityPrinter" />
       <item itemvalue="Application.CodingExercisePlayingCat" />
       <item itemvalue="Application.LectureSwitch" />
+      <item itemvalue="Application.CodingExerciseDayOfTheWeek" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodingExerciseDayOfTheWeek" />
         <item itemvalue="Application.LectureSwitch" />
         <item itemvalue="Application.CodingExercisePlayingCat" />
         <item itemvalue="Application.CodingExerciseIntEqualityPrinter" />
         <item itemvalue="Application.CodingExerciseMinutesToYearsDaysCalculator" />
-        <item itemvalue="Application.CodingExerciseAreaCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -307,16 +308,15 @@
       <workItem from="1546398137243" duration="903000" />
       <workItem from="1546830284463" duration="531000" />
       <workItem from="1546917987163" duration="583000" />
-      <workItem from="1547981540600" duration="7875000" />
+      <workItem from="1547981540600" duration="9218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70230000" />
+    <option name="totallyTimeSpent" value="71573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1397" y="31" width="1280" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -606,8 +606,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LectureSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingExerciseDayOfTheWeek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
         </state>
       </provider>
     </entry>
